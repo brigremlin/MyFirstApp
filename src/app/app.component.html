@@ -7,5 +7,20 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+
+<div class="input-group">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox" aria-label="Checkbox for following text input">
+    </div>
+  </div>
+  <input type="text" class="form-control" aria-label="Text input with checkbox">
+</div>
+
+<button type="button" class="btn btn-light">Click</button>
+
 <h1> Testing First Application</h1>
 <p> First Class Exercise </p>
+
+<input type="text" [(ngModel)] = "title">
+<p> {{title}}</p>
